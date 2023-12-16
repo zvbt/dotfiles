@@ -1,0 +1,69 @@
+accounts.youtube.com###chips-content
+
+www.youtube.com###chips-content
+
+accounts.youtube.com###chips
+
+www.youtube.com###chips
+
+accounts.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__fill
+
+www.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__fill
+
+accounts.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__stroke
+
+www.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__stroke
+
+accounts.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response
+
+www.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response
+
+accounts.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default
+
+www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default
+
+dash.akali.best##.mantine-UnstyledButton-root.mantine-ActionIcon-root.mantine-1p7arnm
+
+plex.akali.best##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn > .SourceSidebarLink-iconContainer-xQGX4C
+
+plex.akali.best##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn
+
+plex.akali.best##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(3) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
+
+plex.akali.best##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(3) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
+
+plex.akali.best##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(4) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
+
+plex.akali.best##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(4) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(5) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(5) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(6) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(6) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
+
+plex.akali.best##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2)
+
+plex.akali.best##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(3)
+
+plex.akali.best##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(4)
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(5)
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(6)
+
+plex.akali.best##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7)
+
+plex.akali.best##._76v8d61._1duebfh16._1duebfh32._1duebfh3m._1duebfhm._76v8d67.tvbry60._1duebfhf6._76v8d62._1duebfh2m._1duebfh2i
+
+www.deeplol.gg##.add_to_Tapin
+
+bypass.city##.mantine-sp3v7l
+
+bypass.city##.mantine-Badge-root.mantine-gw638l
