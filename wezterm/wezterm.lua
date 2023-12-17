@@ -4,7 +4,16 @@ local act = wezterm.action
 local config = {}
 -- Use config builder object if possible
 if wezterm.config_builder then config = wezterm.config_builder() end
+config.default_prog = { 'C:/Program Files/Git/bin/sh', '-l' }
 
+-- ssh
+config.ssh_domains = {
+  {
+    name = 'vps',
+    remote_address = '192.168.1.60',
+    username = 'root',
+  },
+}
 -- Settings
 config.color_scheme = "Catppuccin Frappe"
 config.font = wezterm.font_with_fallback({
@@ -25,12 +34,16 @@ config.inactive_pane_hsb = {
 -- Keys
 
 config.keys = {
-  {
-    key = 'q',
-    mods = 'CTRL',
-    action = wezterm.action.CloseCurrentPane {confirm = true},
-  },
+  
+  { key = 'q', mods = 'CTRL', action = wezterm.action.CloseCurrentPane {confirm = false} },
+  
 }
+config.mouse_bindings = {
+
+{ event = { Down = { streak = 1, button = 'Right' } }, mods = 'NONE', action = act.PasteFrom 'Clipboard',}
+
+}
+
 
 -- Tab bar
 -- I don't like the look of "fancy" tab bar
@@ -71,4 +84,5 @@ wezterm.on("update-right-status", function(window, pane)
     { Text = " |" },
   }))
 end)
+
 return config
