@@ -7,7 +7,7 @@ config.default_prog = { 'C:/Program Files/Git/bin/sh', '-l' }
 
 config.color_scheme = "Catppuccin Frappe"
 config.font = wezterm.font_with_fallback({
-  { family = "Cascadia Mono",  scale = 1.2 }
+  { family = "jetBrains Mono",  scale = 1.2 }
 })
 config.window_background_opacity = 0.9
 config.window_decorations = "RESIZE"
