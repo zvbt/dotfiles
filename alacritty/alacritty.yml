@@ -1,0 +1,51 @@
+# config location %appdata%/alacritty
+
+import:
+  - C:\Users\zvbt\AppData\Roaming\alacritty\catppuccin\catppuccin-frappe.yml
+
+env:
+  TERM: xterm-256color
+  
+window:
+  dynamic_padding: false
+  startup_mode: Windowed
+  opacity: .9
+  history: 0
+  multiplier: 3
+
+
+bell:
+  animation: EaseOutExpo
+  color: '0xffffff'
+  duration: 0
+
+shell:
+  program: C:\Program Files\Git\bin\bash
+  args:
+    - -l
+
+font:
+  normal:
+    family: Jetbrains Mono
+    style: Regular
+
+  bold:
+    family: Jetbrains Mono
+    style: Bold
+
+  italic:
+    family: Jetbrains Mono
+    style: "Light Italic"
+
+  size: 15.0
+  offset:
+    x: 0
+    y: 0
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+
+draw_bold_text_with_bright_colors: false
+custom_cursor_colors: true
