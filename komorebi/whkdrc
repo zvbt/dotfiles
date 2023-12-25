@@ -1,8 +1,8 @@
 .shell powershell
 
 # Reload whkd configuration
-# alt + o                 : taskkill /f /im whkd.exe && start /b whkd # if shell is cmd
-alt + o                 : taskkill /f /im whkd.exe && Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
+alt + o                 : taskkill /f /im whkd.exe && start /b whkd # if shell is cmd
+#alt + o                 : taskkill /f /im whkd.exe && Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
 alt + shift + o         : komorebic reload-configuration
 
 # App shortcuts - these require shell to be pwsh / powershell
@@ -48,6 +48,6 @@ alt + shift + f         : komorebic toggle-monocle
 alt + shift + r         : komorebic retile
 alt + p                 : komorebic toggle-pause
 
-# Layouts
-alt + x                 : komorebic flip-layout horizontal
-alt + y                 : komorebic flip-layout vertical
+# custom
+alt + m					: komorebic minimize
+alt + q					: komorebic close
