@@ -67,3 +67,5 @@ www.deeplol.gg##.add_to_Tapin
 bypass.city##.mantine-sp3v7l
 
 bypass.city##.mantine-Badge-root.mantine-gw638l
+
+www.youtube.com###show-hide-button > .ytd-live-chat-frame.style-scope
