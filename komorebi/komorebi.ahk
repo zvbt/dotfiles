@@ -17,6 +17,8 @@ ActiveWindowBorderColour(123, 66, 245, "single")
 ActiveWindowBorderColour(255, 51, 153, "monocle")
 ActiveWindowBorderColour(256, 165, 66, "stack")
 
+; ! = lAlt
+;  + = LShift
 
 ; Focus windows
 !h::Focus("left")
