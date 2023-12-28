@@ -1,0 +1,1 @@
+- make a install.sh script
