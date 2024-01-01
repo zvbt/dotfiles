@@ -27,3 +27,7 @@ echo -e "moved \033[31moh-my-bash theme & config\033[0m"
 echo -e "  "
 cp "./local.sh" $userFolder
 echo -e "moved \033[31mlocal.sh\033[0m to $userFolder"
+
+echo -e "  "
+cp -r "./glaze-wm" "$userFolder/.glaze-wm"
+echo -e "moved \033[31m./glaze-wm/\033[0m to $userFolder"
