@@ -1,1 +1,1 @@
-- make a install.sh script
+- ~~make a install.sh script~~
