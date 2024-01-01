@@ -1,0 +1,249 @@
+general:
+  focus_follows_cursor: false
+  cursor_follow_focus: true
+  toggle_workspace_on_refocus: true
+  show_floating_on_top: true
+  floating_window_move_amount: "5%"
+  window_animations: "unchanged"
+
+gaps:
+  inner_gap: "20px"
+  outer_gap: "20px"
+focus_borders:
+  active:
+    enabled: true
+    color: *red
+  inactive:
+    enabled: true
+    color: *overlay0
+
+bar:
+  height: "33px"
+  position: "top"
+  opacity: 0.9
+  background: *crust
+  foreground: *mauve
+  font_family: "FiraCode Nerd Font"
+  # font_family: "JetBrainsMono Nerd Font"
+  # font_family: "Nanum Gothic Coding"
+  font_size: "16px"
+  padding: "4px 6px"
+  offset_x: "0"
+  offset_y: "0"
+  border_radius: "0"
+  components_left:
+    - type: "workspaces"
+      focused_workspace_background: *peach
+      focused_workspace_foreground: *crust
+      displayed_workspace_background: *surface0
+      default_workspace_background: "transparent"
+  components_center:
+    - type: "window title"
+      foreground: *green
+  components_right:
+    - type: "system tray"
+      label_expand_text: "<"
+      label_collapse_text: ">"
+    - type: "cpu"
+      label: " {percent_usage}%"
+      background: *red
+      foreground: "#1a222d"
+      border_radius: "30"
+      margin: "0px 10px 2px 2px"
+      padding: "0 10px"
+      refresh_interval_ms: 1000
+    - type: "gpu"
+      label: " {percent_usage}%"
+      background: *blue
+      foreground: "#1a222d"
+      border_radius: "30"
+      margin: "0px 10px 2px 2px"
+      padding: "0 10px"
+      refresh_interval_ms: 1000
+    - type: "memory"
+      label: " {percent_usage}%"
+      background: "#ffffff"
+      foreground: "#1a222d"
+      border_radius: "30"
+      margin: "0px 10px 2px 2px"
+      padding: "0 10px"
+      refresh_interval_ms: 1000
+    - type: "clock"
+      background: *teal
+      foreground: "#1a222d"
+      border_radius: "30"
+      margin: "0px 10px 2px 2px"
+      padding: "0 10px"
+      time_formatting: " HH:mm ddd d MMM"
+
+
+workspaces:
+  - name: "1"
+    display_name: " Desktop"
+    keep_alive: true
+    bind_to_monitor: 1
+  - name: "2"
+    display_name: "󰖟 Web"
+    keep_alive: true
+    bind_to_monitor: 1
+  - name: "3"
+    display_name: "󰙯 Discord"
+    keep_alive: true
+    bind_to_monitor: 2
+  - name: "4"
+    display_name: " DEV"
+    keep_alive: true
+    bind_to_monitor: 1
+  - name: "5"
+    display_name: "󱤙 Games"
+    keep_alive: true
+    bind_to_monitor: 1
+  - name: "6"
+    display_name: " Spotify"
+    keep_alive: true
+    bind_to_monitor: 2
+
+window_rules:
+  - command: "set floating"
+    match_class_name: "#32770"
+  - command: "ignore"
+    match_process_name: "ScreenClippingHost"
+
+  # Move app to workspace
+  - command: "move to workspace 6"
+    match_process_name: "Spotify"
+  - command: "move to workspace 2"
+    match_process_name: "brave"
+  - command: "move to workspace 2"
+    match_process_name: "firefox"
+  - command: "move to workspace 3"
+    match_title: "Discord"
+  - command: "move to workspace 3"
+    match_title: "TeamSpeak 3"
+  - command: "move to workspace 3"
+    match_process_name: "Telegram"
+  - command: "move to workspace 4"
+    match_process_name: "Code"
+  - command: "move to workspace 5"
+    match_process_name: "RiotClientUx"
+  - command: "move to workspace 5"
+    match_process_name: "steam"
+  - command: "move to workspace 5"
+    match_process_name: "EpicGamesLauncher"
+
+
+
+keybindings:
+  - command: "focus left"
+    bindings: ["Alt+H", "Alt+Left"]
+  - command: "focus right"
+    bindings: ["Alt+J", "Alt+Right"]
+  - command: "focus up"
+    bindings: ["Alt+K", "Alt+Up"]
+  - command: "focus down"
+    bindings: ["Alt+L", "Alt+Down"]
+
+  - command: "move left"
+    bindings: ["Alt+Shift+H", "Alt+Shift+Left"]
+  - command: "move right"
+    bindings: ["Alt+Shift+J", "Alt+Shift+Right"]
+  - command: "move up" 
+    bindings: ["Alt+Shift+K", "Alt+Shift+Up"]
+  - command: "move down"
+    bindings: ["Alt+Shift+L", "Alt+Shift+Down"]
+
+
+# Change window size 
+  - command: "resize width -2%"
+    binding: "Alt+U"
+  - command: "resize width +2%"
+    binding: "Alt+I"
+    
+  - command: "resize height +2%"
+    binding: "Alt+P"
+  - command: "resize height -2%"
+    binding: "Alt+O"
+    
+  # Change the focused window to be floating / tiling
+  - command: "toggle floating"
+    binding: "Alt+Shift+Space"
+
+  # Change the focused window to be maximized / unmaximized
+  - command: "toggle maximized"
+    binding: "Alt+F"
+
+  # Minimize focused window
+  - command: "set minimized"
+    binding: "Alt+M"
+
+  # Close focused window
+  - command: "close"
+    binding: "Alt+Q"
+
+  # Exit GlazeWM
+  - command: "exit wm"
+    binding: "Alt+Shift+E"
+
+  # Reload configuration file
+  - command: "reload config"
+    binding: "Alt+Shift+R"
+
+  # Start alacritty
+  - command: "exec 'C:\\Program Files\\Alacritty\\alacritty.exe'"
+    binding: "Alt+Enter"
+    
+    
+  # Workspace bindings
+  - command: "focus workspace 1"
+    binding: "Alt+1"
+  - command: "focus workspace 2"
+    binding: "Alt+2"
+  - command: "focus workspace 3"
+    binding: "Alt+3"
+  - command: "focus workspace 4"
+    binding: "Alt+4"
+  - command: "focus workspace 5"
+    binding: "Alt+5"
+  - command: "focus workspace 6"
+    binding: "Alt+6"
+    
+  - commands: ["move to workspace 1"]
+    binding: "Alt+Shift+1"
+  - commands: ["move to workspace 2"]
+    binding: "Alt+Shift+2"
+  - commands: ["move to workspace 3"]
+    binding: "Alt+Shift+3"
+  - commands: ["move to workspace 4"]
+    binding: "Alt+Shift+4"
+  - commands: ["move to workspace 5"]
+    binding: "Alt+Shift+5"
+  - commands: ["move to workspace 6"]
+    binding: "Alt+Shift+6"
+    
+    
+rosewater: &rosewater "#f2d5cf"
+flamingo: &flamingo "f2cdcd"
+pink: &pink "#f4b8e4"
+mauve: &mauve "#ca9ee6"
+red: &red "#e78284"
+maroon: &maroon "#ea999c"
+peach: &peach "#ef9f76"
+yellow: &yellow "#e5c890"
+green: &green "#a6d189"
+teal: &teal "#81c8be"
+sky: &sky "#99d1db"
+sapphire: &sapphire "#85c1dc"
+blue: &blue "#8caaee"
+lavender: &lavender "#babbf1"
+text: &text "#c6d0f5"
+subtext1: &subtext1 "#b5bfe2"
+subtext0: &subtext0 "#a5adce"
+overlay2: &overlay2 "#949cbb"
+overlay1: &overlay1 "#838ba7"
+overlay0: &overlay0 "#737994"
+surface2: &surface2 "#626880"
+surface1: &surface1 "#51576d"
+surface0: &surface0 "#414559"
+base: &base "#303446"
+mantle: &mantle "#292c3c"
+crust: &crust "#232634"
