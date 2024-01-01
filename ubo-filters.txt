@@ -69,3 +69,5 @@ bypass.city##.mantine-sp3v7l
 bypass.city##.mantine-Badge-root.mantine-gw638l
 
 www.youtube.com###show-hide-button > .ytd-live-chat-frame.style-scope
+
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
