@@ -1,0 +1,45 @@
+import = ['C:\Users\cyadine\AppData\Roaming\alacritty\catppuccin\catppuccin-frappe.toml']
+working_directory = "C:/Users/cyadine"
+
+[bell]
+animation = "EaseOutExpo"
+color = "0xffffff"
+duration = 0
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 15.0
+
+[font.bold]
+family = "Jetbrains Mono"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "Jetbrains Mono"
+style = "Light Italic"
+
+[font.normal]
+family = "Jetbrains Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[shell]
+args = ["-l"]
+program = 'C:\Program Files\Git\bin\sh'
+
+[window]
+dynamic_padding = false
+opacity = 0.9
+startup_mode = "Windowed"
