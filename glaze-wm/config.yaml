@@ -18,37 +18,51 @@ focus_borders:
     color: *overlay0
 
 bar:
-  height: "33px"
+  height: "30px"
   position: "top"
-  opacity: 0.9
+  opacity: 0.8
   background: *crust
   foreground: *mauve
-  font_family: "FiraCode Nerd Font"
-  # font_family: "JetBrainsMono Nerd Font"
+  # font_family: "FiraCode Nerd Font"
+  font_family: "JetBrainsMono Nerd Font"
   # font_family: "Nanum Gothic Coding"
   font_size: "16px"
   padding: "4px 6px"
-  offset_x: "0"
-  offset_y: "0"
-  border_radius: "0"
+  offset_x: "20"
+  offset_y: "10"
+  border_radius: "10"
+  component_separator:
+    label_left: " | "
+    label_center: " | "
   components_left:
     - type: "workspaces"
-      focused_workspace_background: *peach
+      focused_workspace_background: *red
       focused_workspace_foreground: *crust
       displayed_workspace_background: *surface0
       default_workspace_background: "transparent"
-  components_center:
     - type: "window title"
       foreground: *green
+  components_center:
+    # - type: "system tray"
+    #   label_expand_text: "<"
+    #   label_collapse_text: ">"
+    - type: "image"
+      source: "C:\\Users\\cyadine\\.config\\glaze-wm\\assets\\catppuccin.png"
   components_right:
-    - type: "system tray"
-      label_expand_text: "<"
-      label_collapse_text: ">"
+    - type: "music"
+      label_not_playing: ""
+      label_paused: "▐▐ {song_title} - {artist_name} | "
+      label_playing: "▶ {song_title} - {artist_name} | "
+      max_title_length: 20
+      max_artist_length: 20
+    # - type: "system tray"
+    #   label_expand_text: "<"
+    #   label_collapse_text: ">"
     - type: "cpu"
       label: " {percent_usage}%"
       background: *red
       foreground: "#1a222d"
-      border_radius: "30"
+      border_radius: "10px"
       margin: "0px 10px 2px 2px"
       padding: "0 10px"
       refresh_interval_ms: 1000
@@ -56,7 +70,7 @@ bar:
       label: " {percent_usage}%"
       background: *blue
       foreground: "#1a222d"
-      border_radius: "30"
+      border_radius: "10px"
       margin: "0px 10px 2px 2px"
       padding: "0 10px"
       refresh_interval_ms: 1000
@@ -64,14 +78,14 @@ bar:
       label: " {percent_usage}%"
       background: "#ffffff"
       foreground: "#1a222d"
-      border_radius: "30"
+      border_radius: "10px"
       margin: "0px 10px 2px 2px"
       padding: "0 10px"
       refresh_interval_ms: 1000
     - type: "clock"
       background: *teal
       foreground: "#1a222d"
-      border_radius: "30"
+      border_radius: "10px"
       margin: "0px 10px 2px 2px"
       padding: "0 10px"
       time_formatting: " HH:mm ddd d MMM"
@@ -159,10 +173,10 @@ keybindings:
   - command: "resize width +2%"
     binding: "Alt+I"
     
-  - command: "resize height +2%"
-    binding: "Alt+P"
-  - command: "resize height -2%"
-    binding: "Alt+O"
+  # - command: "resize height +2%"
+  #   binding: "Alt+P"
+  # - command: "resize height -2%"
+  #   binding: "Alt+O"
     
   # Change the focused window to be floating / tiling
   - command: "toggle floating"
@@ -191,6 +205,12 @@ keybindings:
   # Start alacritty
   - command: "exec 'C:\\Program Files\\Alacritty\\alacritty.exe'"
     binding: "Alt+Enter"
+  # Start Explorer
+  - command: "exec 'C:\\Windows\\explorer.exe'"
+    binding: "Alt+E"
+  # Start ProcessHacker
+  - command: "exec 'D:\\Install\\Processhacker2\\ProcessHacker.exe'"
+    binding: "Alt+P"
     
     
   # Workspace bindings
