@@ -29,5 +29,5 @@ cp "./local.sh" $userFolder
 echo -e "moved \033[31mlocal.sh\033[0m to $userFolder"
 
 echo -e "  "
-cp -r "./glaze-wm" "$userFolder/.glaze-wm"
-echo -e "moved \033[31m./glaze-wm/\033[0m to $userFolder"
+cp -r "./glaze-wm" "$dotConfig"
+echo -e "moved \033[31m./glaze-wm/\033[0m to $dotConfig"
