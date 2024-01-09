@@ -43,21 +43,32 @@ bar:
     - type: "window title"
       foreground: *green
   components_center:
-    # - type: "system tray"
-    #   label_expand_text: "<"
-    #   label_collapse_text: ">"
     - type: "image"
       source: "C:\\Users\\cyadine\\.config\\glaze-wm\\assets\\catppuccin.png"
   components_right:
-    - type: "music"
-      label_not_playing: ""
-      label_paused: "▐▐ {song_title} - {artist_name} | "
-      label_playing: "▶ {song_title} - {artist_name} | "
-      max_title_length: 20
-      max_artist_length: 20
-    # - type: "system tray"
-    #   label_expand_text: "<"
-    #   label_collapse_text: ">"
+    # - type: "music"
+    #   label_not_playing: ""
+    #   label_paused: "▐▐ {song_title} - {artist_name} | "
+    #   label_playing: "▶ {song_title} - {artist_name} | "
+    #   max_title_length: 20
+    #   max_artist_length: 20
+    - type: "weather"
+      latitude: 50.474800
+      longitude: 4.183739
+      label: "{temperature_celsius}°C "
+      label_sun: "☀️ {temperature_celsius}°C "
+      label_moon: "🌙 {temperature_celsius}°C "
+      label_cloud_moon: "🌙☁️ {temperature_celsius}°C "
+      label_cloud_sun: "⛅ {temperature_celsius}°C "
+      label_cloud_moon_rain: "🌙🌧️ {temperature_celsius}°C "
+      label_cloud_sun_rain: "🌦️ {temperature_celsius}°C "
+      label_cloud_rain: "🌧️ {temperature_celsius}°C "
+      label_snow_flake: "❄️ {temperature_celsius}°C "
+      label_thunderstorm: "⚡ {temperature_celsius}°C "
+      label_cloud: "☁️ {temperature_celsius}°C "
+    - type: "system tray"
+      label_expand_text: " "
+      label_collapse_text: " "
     - type: "cpu"
       label: " {percent_usage}%"
       background: *red
@@ -75,7 +86,7 @@ bar:
       padding: "0 10px"
       refresh_interval_ms: 1000
     - type: "memory"
-      label: " {percent_usage}%"
+      label: " {percent_usage}%"
       background: "#ffffff"
       foreground: "#1a222d"
       border_radius: "10px"
@@ -89,6 +100,7 @@ bar:
       margin: "0px 10px 2px 2px"
       padding: "0 10px"
       time_formatting: " HH:mm ddd d MMM"
+    
 
 
 workspaces:
@@ -210,6 +222,8 @@ keybindings:
     binding: "Alt+E"
   # Start ProcessHacker
   - command: "exec 'D:\\Install\\Processhacker2\\ProcessHacker.exe'"
+    binding: "Alt+Shift+P"
+  - command: "exec 'C:\\Windows\\System32\\Taskmgr.exe'"
     binding: "Alt+P"
     
     
