@@ -19,6 +19,9 @@ youtube.com##yt-button-view-model.ytd-menu-renderer.style-scope:nth-of-type(1)
 youtube.com##yt-button-view-model.ytd-menu-renderer.style-scope:nth-of-type(2)
 youtube.com###sponsor-button
 youtube.com###voice-search-button
+youtube.com###chips-wrapper > .ytd-feed-filter-chip-bar-renderer.style-scope
+youtube.com###header > .ytd-rich-grid-renderer.style-scope
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 
 plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn > .SourceSidebarLink-iconContainer-xQGX4C
 plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn
@@ -40,10 +43,18 @@ plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rW
 plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7)
 plex.zvbt.space##._76v8d61._1duebfh16._1duebfh32._1duebfh3m._1duebfhm._76v8d67.tvbry60._1duebfhf6._76v8d62._1duebfh2m._1duebfh2i
 
-www.deeplol.gg##.add_to_Tapin
+deeplol.gg##.add_to_Tapin
 
 bypass.city##.mantine-sp3v7l
 bypass.city##.mantine-Badge-root.mantine-gw638l
 
 duckduckgo.com##.center_andText__ejUnC.center_intrinsic__mk_Ab.center_root__Uf1xM.home_exploreFeatureScroller__V5a9G.legacy-homepage-variants_scrollCta__hNjqv
 duckduckgo.com##span.tagline_taglineText__4Okum
+
+! 2024-01-14 https://shop.certum.eu
+shop.certum.eu##.pr-cookie-modal-popup.pr-cookie-modal.modal-popup
+
+v5.voiranime.com##.with-border.c-sub-header-nav
+v5.voiranime.com##.col-sm-4.col-md-4.sidebar-col
+voirdrama.org###main-sidebar > .row
+voirdrama.org##.col-lg-8.col-md-8.col-sm-8.col-12.main-col
