@@ -95,6 +95,7 @@ bar:
       foreground: *text
       time_formatting: "dd/MM/yy H:mm"
     - type: "system tray"
+      padding: "4px 0px"
     
 
 
