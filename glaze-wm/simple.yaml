@@ -71,8 +71,7 @@ bar:
       foreground: *text
       time_formatting: "dd/MM/yy H:mm"
     - type: "system tray"
-      # label_expand_text: "  "
-      # label_collapse_text: "  "
+      padding: "4px 0px"
     
 
 
