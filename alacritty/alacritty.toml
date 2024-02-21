@@ -7,7 +7,7 @@ color = "0xffffff"
 duration = 0
 
 [colors]
-draw_bold_text_with_bright_colors = false
+draw_bold_text_with_bright_colors = true
 
 [env]
 TERM = "xterm-256color"
@@ -36,10 +36,15 @@ x = 0
 y = 0
 
 [shell]
-args = ["-l"]
 program = 'C:\Program Files\Git\bin\sh'
+args = ['-l']
+
 
 [window]
 dynamic_padding = false
 opacity = 0.9
 startup_mode = "Windowed"
+
+[scrolling]
+history = 10000
+multiplier = 3
