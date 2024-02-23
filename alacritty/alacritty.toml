@@ -44,7 +44,8 @@ args = ['-l']
 dynamic_padding = false
 opacity = 0.9
 startup_mode = "Windowed"
-
+dimensions.columns = 115
+dimensions.lines = 25
 [scrolling]
 history = 10000
 multiplier = 3
