@@ -44,12 +44,12 @@ bar:
     - type: "window title"
       foreground: *text
   components_right:
-    # - type: "music"
-    #   label_not_playing: ""
-    #   label_paused: "▐▐ {song_title} - {artist_name} | "
-    #   label_playing: "▶ {song_title} - {artist_name} | "
-    #   max_title_length: 20
-    #   max_artist_length: 20
+    - type: "music"
+      label_not_playing: ""
+      label_paused: "▐▐ {song_title} - {artist_name} | "
+      label_playing: "▶ {song_title} - {artist_name} | "
+      max_title_length: 20
+      max_artist_length: 20
     - type: "weather"
       latitude: 50.474800
       longitude: 4.183739
@@ -64,8 +64,6 @@ bar:
       label_snow_flake: "❄️ {temperature_celsius}°C "
       label_thunderstorm: "⚡ {temperature_celsius}°C "
       label_cloud: "☁️ {temperature_celsius}°C "
-    
-    
     - type: "clock"
       background: *crust
       foreground: *text
@@ -86,7 +84,7 @@ workspaces:
     bind_to_monitor: 1
   - name: "3"
     display_name: "3"
-    keep_alive: false
+    keep_alive: true
     bind_to_monitor: 2
   - name: "4"
     display_name: "4"
@@ -135,12 +133,24 @@ window_rules:
     match_process_name: "javaw"
   - command: "ignore"
     match_process_name: "Modrinth App"
-  - command: "ignore"
+  - command: "set floating"
     match_process_name: "alacritty"
   - command: "ignore"
     match_process_name: "Lightshot"
   - command: "set floating"
     match_process_name: "mpv"
+  - command: "set floating"
+    match_process_name: "Overwolf"
+  - command: "set floating"
+    match_process_name: "OverwolfBrowser"
+  - command: "set floating"
+    match_process_name: "OverwolfHelper"
+  - command: "set floating"
+    match_process_name: "OverwolfHelper64"
+  - command: "set floating"
+    match_process_name: "Porofessor.gg"
+  - command: "set floating"
+    match_process_name: "WindowsTerminal"
 
 
 
@@ -149,6 +159,8 @@ window_rules:
     match_process_name: "brave"
   - command: "move to workspace 1"
     match_process_name: "firefox"
+  - command: "move to workspace 1"
+    match_process_name: "Arc"
   - command: "move to workspace 3"
     match_process_name: "Discord"
 
@@ -214,10 +226,12 @@ keybindings:
   - command: "exec 'C:\\Windows\\explorer.exe'"
     binding: "Alt+E"
   # Start ProcessHacker
-  - command: "exec 'D:\\Install\\Processhacker2\\ProcessHacker.exe'"
+  - command: "exec 'E:\\Divers\\Processhacker2\\ProcessHacker.exe'"
     binding: "Alt+Shift+P"
   - command: "exec 'C:\\Windows\\System32\\Taskmgr.exe'"
     binding: "Alt+P"
+  - command: "exec 'C:\\Users\\cyadine\\AppData\\Local\\Microsoft\\WindowsApps\\Arc.exe'"
+    binding: "Alt+B"
     
   # Workspace bindings
   - command: "focus workspace 1"
