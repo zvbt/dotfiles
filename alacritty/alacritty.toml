@@ -1,4 +1,5 @@
-import = ['C:\Users\cyadine\AppData\Roaming\alacritty\catppuccin\catppuccin-frappe.toml']
+import = ['C:\Users\cyadine\AppData\Roaming\alacritty\catppuccin\catppuccin-mocha.toml']
+live_config_reload = true
 working_directory = "C:/Users/cyadine"
 
 [bell]
@@ -16,7 +17,8 @@ TERM = "xterm-256color"
 size = 15.0
 
 [font.bold]
-family = "Jetbrains Mono"
+family = "JetbrainsMono Nerd Font"
+# family = "NanumGothicCode"
 style = "Bold"
 
 [font.glyph_offset]
@@ -24,11 +26,11 @@ x = 0
 y = 0
 
 [font.italic]
-family = "Jetbrains Mono"
+family = "JetbrainsMono Nerd Font"
 style = "Light Italic"
 
 [font.normal]
-family = "Jetbrains Mono"
+family = "JetbrainsMono Nerd Font"
 style = "Regular"
 
 [font.offset]
@@ -44,8 +46,28 @@ args = ['-l']
 dynamic_padding = false
 opacity = 0.9
 startup_mode = "Windowed"
+decorations = "full"
 dimensions.columns = 115
 dimensions.lines = 25
+
 [scrolling]
 history = 10000
 multiplier = 3
+
+[mouse]
+hide_when_typing = false
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
