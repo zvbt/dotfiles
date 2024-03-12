@@ -1,8 +1,8 @@
 @echo off
 
-komorebic start -c "C:\Users\zvbt\.config\komorebi\komorebi.json" --whkd
+komorebic start --config "C:\Users\cyadine\.config\komorebi\komorebi.json"
 
-REM timeout /t 1 /nobreak > nul
+timeout /t 1 /nobreak > nul
 
-REM start "" "komorebi.ahk"
+start "" "komorebi.ahk"
 exit
