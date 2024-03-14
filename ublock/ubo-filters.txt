@@ -16,6 +16,7 @@ youtube.com###voice-search-button
 youtube.com###chips-wrapper > .ytd-feed-filter-chip-bar-renderer.style-scope
 youtube.com###header > .ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+youtube.com###show-hide-button > .ytd-live-chat-frame.style-scope
 
 plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn > .SourceSidebarLink-iconContainer-xQGX4C
 plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn
@@ -36,16 +37,43 @@ plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rW
 plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(6)
 plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7)
 plex.zvbt.space##._76v8d61._1duebfh16._1duebfh32._1duebfh3m._1duebfhm._76v8d67.tvbry60._1duebfhf6._76v8d62._1duebfh2m._1duebfh2i
+
 deeplol.gg##.add_to_Tapin
+
 bypass.city##.mantine-sp3v7l
 bypass.city##.mantine-Badge-root.mantine-gw638l
+
 duckduckgo.com##.center_andText__ejUnC.center_intrinsic__mk_Ab.center_root__Uf1xM.home_exploreFeatureScroller__V5a9G.legacy-homepage-variants_scrollCta__hNjqv
 duckduckgo.com##span.tagline_taglineText__4Okum
-shop.certum.eu##.pr-cookie-modal-popup.pr-cookie-modal.modal-popup
+
 v5.voiranime.com##.with-border.c-sub-header-nav
 v5.voiranime.com##.col-sm-4.col-md-4.sidebar-col
 voirdrama.org###main-sidebar > .row
 voirdrama.org##.col-lg-8.col-md-8.col-sm-8.col-12.main-col
+
 app.skiff.com##.gjdFDt.sc-ezbkAF
-www.youtube.com###show-hide-button > .ytd-live-chat-frame.style-scope
+
 mydramalist.com##.carousel-articles.light.box
+
+tracker.gg##.trn-game-bar-premium
+tracker.gg##.trn-game-bar-special__container
+tracker.gg##.trn-game-bar-special
+tracker.gg##.mobile-promo
+tracker.gg##a.trn-game-bar-title:nth-of-type(1)
+tracker.gg##a.trn-game-bar-title:nth-of-type(3)
+tracker.gg##a.trn-game-bar-title:nth-of-type(4)
+tracker.gg##a.trn-game-bar-title:nth-of-type(5)
+tracker.gg##a.trn-game-bar-title:nth-of-type(6)
+tracker.gg##a.trn-game-bar-title:nth-of-type(7)
+tracker.gg##a.trn-game-bar-title:nth-of-type(8)
+tracker.gg##.trn-game-bar-more-games__label
+tracker.gg##.trn-game-bar
+
+twitch.tv##.kBtJDm.InjectLayout-sc-1i43xsx-0 > .cegTsp.bTXTVH.ScCoreButtonSecondary-sc-ocjdkq-2.ScCoreButton-sc-ocjdkq-0
+twitch.tv##.prime-offers.cwtKyw.Layout-sc-1xcs6mc-0 > .hatIYF.Layout-sc-1xcs6mc-0 .kBtJDm.InjectLayout-sc-1i43xsx-0 .eSFFfM.ScButtonIcon-sc-9yap0r-0.bTXTVH.ScCoreButton-sc-ocjdkq-0
+twitch.tv##.kBEymU.Layout-sc-1xcs6mc-0 > .hatIYF.Layout-sc-1xcs6mc-0 > div > .kBtJDm.InjectLayout-sc-1i43xsx-0 > .eSFFfM.ScButtonIcon-sc-9yap0r-0.bTXTVH.ScCoreButton-sc-ocjdkq-0
+
+animationdigitalnetwork.fr##.crYqSn.iprhiF.sc-3b794bf1-2.sc-3b794bf1-0 > .izqJqd.sc-5a07385f-0
+animationdigitalnetwork.fr###comments-panel > .izqJqd.sc-5a07385f-0 > .deQkVJ.sc-5a07385f-1
+animationdigitalnetwork.fr##.crYqSn.iprhiF.sc-3b794bf1-2.sc-3b794bf1-0 > div > .izqJqd.sc-5a07385f-0 > .itDEN.sc-5a07385f-1
+animationdigitalnetwork.fr##.jdcJRq.sc-3b794bf1-3
