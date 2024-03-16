@@ -2,32 +2,29 @@ log_file=~/config_logs.txt
 config=~/.config
 
 # Alacritty
- if winget list 2>/dev/null | grep -q Alacritty; then
-     echo "Alacritty is already installed."| tee -a $log_file
-     cp -r "./alacritty" $APPDATA
-     echo "Moving the config to $APPDATA/alacritty" | tee -a $log_file
-     echo "Alacritty done." | tee -a $log_file
- else
-     echo "Alacritty is not installed." | tee -a $log_file
-     echo "Installing Alacritty..." | tee -a $log_file
-     winget install Alacritty.Alacritty
-     echo "Successfully installed Alacritty." | tee -a $log_file
-     echo "Moving the config to $APPDATA/alacritty" | tee -a $log_file
-     cp -r "./alacritty" $APPDATA
-     echo "Alacritty done." | tee -a $log_file
+if winget list 2>/dev/null | grep -q Alacritty; then
+    echo "Alacritty is already installed."| tee -a $log_file
+    cp -r "./alacritty" $APPDATA
+    echo "Moving the config to $APPDATA/alacritty" | tee -a $log_file
+    echo "Alacritty done." | tee -a $log_file
+else
+    echo "Alacritty is not installed." | tee -a $log_file
+    echo "Installing Alacritty..." | tee -a $log_file
+    winget install Alacritty.Alacritty
+    echo "Successfully installed Alacritty." | tee -a $log_file
+    echo "Moving the config to $APPDATA/alacritty" | tee -a $log_file
+    cp -r "./alacritty" $APPDATA
+    echo "Alacritty done." | tee -a $log_file
 fi
-
 
 # Scoop
 if scoop -v 2>/dev/null | grep -q Scoop; then
     echo "Scoop is already installed." | tee -a $log_file
 else
-    #curl -L -o scoop.ps1 https://get.scoop.sh
-    echo "Running Scoop in a powershell window" | tee -a $log_file
+    echo "Running Scoop installer in a powershell window" | tee -a $log_file
     powershell Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     powershell -Command "irm get.scoop.sh | iex"
 fi
-
 
 # MPV
 if mpv.com --version 2>/dev/null | grep -q mpv; then
