@@ -1,33 +1,55 @@
-# alacritty
+log_file=~/config_logs.txt
+config=~/.config
 
-appdataConfig="C:/Users/cyadine/AppData/Roaming"
-dotConfig="C:/Users/cyadine/.config"
-userFolder="C:/Users/cyadine"
+# Alacritty
+ if winget list 2>/dev/null | grep -q Alacritty; then
+     echo "Alacritty is already installed."| tee -a $log_file
+     cp -r "./alacritty" $APPDATA
+     echo "Moving the config to $APPDATA/alacritty" | tee -a $log_file
+     echo "Alacritty done." | tee -a $log_file
+ else
+     echo "Alacritty is not installed." | tee -a $log_file
+     echo "Installing Alacritty..." | tee -a $log_file
+     winget install Alacritty.Alacritty
+     echo "Successfully installed Alacritty." | tee -a $log_file
+     echo "Moving the config to $APPDATA/alacritty" | tee -a $log_file
+     cp -r "./alacritty" $APPDATA
+     echo "Alacritty done." | tee -a $log_file
+fi
 
 
-echo -e "  "
-cp -r "./alacritty" $appdataConfig
-echo -e "moved \033[31m./alacritty\033[0m to $appdataConfig"
+# Scoop
+if scoop -v 2>/dev/null | grep -q Scoop; then
+    echo "Scoop is already installed." | tee -a $log_file
+else
+    #curl -L -o scoop.ps1 https://get.scoop.sh
+    echo "Running Scoop in a powershell window" | tee -a $log_file
+    powershell Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    powershell -Command "irm get.scoop.sh | iex"
+fi
 
-echo -e "  "
-cp -r "./komorebi" $dotConfig
-rm "$dotConfig/komorebi/whkdrc"
-cp "./komorebi/whkdrc" $dotConfig
-echo -e "moved \033[31m./komerebi\033[0m to $dotConfig"
 
-echo -e "  "
-cp -r "./mpv/" $appdataConfig
-echo -e "moved \033[31m./mpv\033[0m to $appdataConfig"
+# MPV
+if mpv.com --version 2>/dev/null | grep -q mpv; then
+    echo "mpv is already installed." | tee -a $log_file
+    echo "Moving the config to $USERPROFILE/scoop/apps/mpv/current/portable_config/" | tee -a $log_file
+    cp -r "./mpv"/* $USERPROFILE/scoop/apps/mpv/current/portable_config/
+    echo "mpv done." | tee -a $log_file
+else
+    echo "mpv is not installed." | tee -a $log_file
+    echo "Installing mpv..." | tee -a $log_file
+    echo "Successfully installed mpv." | tee -a $log_file
+    echo "Moving the config to $USERPROFILE/scoop/apps/mpv/current/portable_config/" | tee -a $log_file
+    cp -r "./mpv"/* $USERPROFILE/scoop/apps/mpv/current/portable_config/
+    echo "mpv done." | tee -a $log_file
+fi
 
-echo -e "  "
-cp -r "./oh-my-bash/themes/zvbt/" "$userFolder/.oh-my-bash/themes"
-cp "./oh-my-bash/.bashrc" $userFolder
-echo -e "moved \033[31moh-my-bash theme & config\033[0m"
 
-echo -e "  "
-cp "./local.sh" $userFolder
-echo -e "moved \033[31mlocal.sh\033[0m to $userFolder"
-
-echo -e "  "
-cp -r "./glaze-wm" "$dotConfig"
-echo -e "moved \033[31m./glaze-wm/\033[0m to $dotConfig"
+#==============
+# Give the user a summary of what has been installed
+#==============
+clear
+echo -e "\n====== LOGS ======\n"
+cat $log_file
+echo
+rm $log_file
