@@ -14,7 +14,7 @@ My font looks weird because I mainly use it for Hangul (the Korean alphabet). It
 
 ## GlazeWM
 GlazeWM is window manager for Windows 10/11
-![zRXwZ37HwG](https://github.com/zvbt/dotfiles/assets/61088560/3752fd18-59a1-49d9-94c0-c6d3d7ff901a)
+![gif](https://github.com/zvbt/dotfiles/assets/61088560/3752fd18-59a1-49d9-94c0-c6d3d7ff901a)
 
 ## MPV
 ![image](https://github.com/zvbt/dotfiles/assets/61088560/29070ec2-ec20-4746-aa2d-f1b29dcd3069)
