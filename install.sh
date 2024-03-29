@@ -1,12 +1,12 @@
 log_file=~/config_logs.txt
 config=~/.config
 
-# handle_error() {
-#     local exit_code=$?
-#     echo -e "\033[0;31m An error occurred. (try running this script as admin) \033[0m"
-#     exit $exit_code
-# }
-# trap 'handle_error' ERR
+handle_error() {
+    local exit_code=$?
+    echo -e "\033[0;31m An error occurred. (try running this script as admin) \033[0m"
+     exit $exit_code
+}
+trap 'handle_error' ERR
 
 # Scoop & winget check
 if scoop -v 2>/dev/null | grep -q Scoop; then
@@ -62,8 +62,9 @@ if scoop list 2>/dev/null | grep -q glazewm; then
     echo "Moving the config to $USERPROFILE/.glaze-wm/" | tee -a $log_file
     cp -r "./glaze-wm"/* $USERPROFILE/.glaze-wm/
     echo "Creating a startmenu shortcut & auto startup..." | tee -a $log_file
-    powershell -Command "New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs' -Name "GlazeWM.lnk" -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe'"
-    powershell -Command "New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\Startup' -Name "GlazeWM.lnk" -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe'"
+powershell -Command "if (-not (Test-Path -Path 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GlazeWM.lnk')) { New-Item -ItemType SymbolicLink -Path 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs' -Name 'GlazeWM.lnk' -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe' }"
+powershell -Command "if (-not (Test-Path -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\GlazeWM.lnk')) { New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs' -Name 'GlazeWM.lnk' -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe' }"
+powershell -Command "if (-not (Test-Path -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\GlazeWM.lnk')) { New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\Startup' -Name 'GlazeWM.lnk' -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe' }"
     echo "GlazeWM done." | tee -a $log_file
 else
     echo "GlazeWM is not installed." | tee -a $log_file
@@ -74,8 +75,10 @@ else
     mkdir $USERPROFILE/.glaze-wm/
     cp -r "./glaze-wm"/* $USERPROFILE/.glaze-wm/
     echo "Creating a startmenu shortcut & auto startup..." | tee -a $log_file
-    powershell -Command "New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs' -Name "GlazeWM.lnk" -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe'"
-    powershell -Command "New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\Startup' -Name "GlazeWM.lnk" -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe'"
+powershell -Command "if (-not (Test-Path -Path 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GlazeWM.lnk')) { New-Item -ItemType SymbolicLink -Path 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs' -Name 'GlazeWM.lnk' -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe' }"
+powershell -Command "if (-not (Test-Path -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\GlazeWM.lnk')) { New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\Startup' -Name 'GlazeWM.lnk' -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe' }"
+powershell -Command "if (-not (Test-Path -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs\GlazeWM.lnk')) { New-Item -ItemType SymbolicLink -Path '$APPDATA\Microsoft\Windows\Start Menu\Programs' -Name 'GlazeWM.lnk' -Value '$USERPROFILE/scoop/apps/glazewm/current/GlazeWM.exe' }"
+
     echo "GlazeWM done." | tee -a $log_file
 fi
 
