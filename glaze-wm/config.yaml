@@ -12,20 +12,21 @@ gaps:
 focus_borders:
   active:
     enabled: true
-    color: "#4287f5"
+    color: "#d3869b"
   inactive:
     enabled: true
-    color: *overlay0
+    color: "#83a598"
 
 bar:
   height: "25px"
   position: "top"
   opacity: 1
-  background: *crust
-  foreground: *text
-  font_family: "JetBrainsMono Nerd Font"
-  # font_family: "NanumGothicCode"
-  font_size: "13px"
+  background: "#282828"
+  foreground: "#ebdbb2"
+  # font_family: "JetBrainsMono Nerd Font"
+  # font_family: "NanumGothic Nerd Font"
+  font_family: "Maple Mono NF"
+  font_size: "15px"
   padding: "0px 0px"
   offset_x: "0"
   offset_y: "0"
@@ -35,14 +36,14 @@ bar:
     label_center: " | "
   components_left:
     - type: "workspaces"
-      focused_workspace_background: *blue
-      focused_workspace_foreground: *crust
-      displayed_workspace_background: *crust
+      focused_workspace_background: "#9d0006"  # Adjusted Gruvbox color (dark red)
+      focused_workspace_foreground: "#ebdbb2"  # Gruvbox bright yellow
+      displayed_workspace_background: "#282828"  # Gruvbox background
       default_workspace_background: "transparent"
 
   components_center:
     - type: "window title"
-      foreground: *text
+      foreground: "#ebdbb2"
   components_right:
     - type: "music"
       label_not_playing: ""
@@ -55,22 +56,21 @@ bar:
       longitude: 4.183739
       label: "{temperature_celsius}°C "
       label_sun: "☀️ {temperature_celsius}°C "
-      label_moon: "🌙 {temperature_celsius}°C "
+      label_moon: "🌙{temperature_celsius}°C "
       label_cloud_moon: "🌙☁️ {temperature_celsius}°C "
       label_cloud_sun: "⛅ {temperature_celsius}°C "
       label_cloud_moon_rain: "🌙🌧️ {temperature_celsius}°C "
       label_cloud_sun_rain: "🌦️ {temperature_celsius}°C "
       label_cloud_rain: "🌧️ {temperature_celsius}°C "
       label_snow_flake: "❄️ {temperature_celsius}°C "
-      label_thunderstorm: "⚡ {temperature_celsius}°C "
+      label_thunderstorm: "⚡{temperature_celsius}°C "
       label_cloud: "☁️ {temperature_celsius}°C "
     - type: "clock"
-      background: *crust
-      foreground: *text
+      background: "#282828"
+      foreground: "#ebdbb2"
       time_formatting: "dd/MM/yy H:mm"
     - type: "system tray"
-      padding: "4px 0px"
-    
+      padding: "5px 0px"
 
 
 workspaces:
@@ -80,12 +80,12 @@ workspaces:
     bind_to_monitor: 1
   - name: "2"
     display_name: "2"
-    keep_alive: false
-    bind_to_monitor: 1
-  - name: "3"
-    display_name: "3"
     keep_alive: true
     bind_to_monitor: 2
+  - name: "3"
+    display_name: "3"
+    keep_alive: false
+    bind_to_monitor: 1
   - name: "4"
     display_name: "4"
     keep_alive: false
@@ -99,70 +99,6 @@ workspaces:
     keep_alive: false
     bind_to_monitor: 1
 
-window_rules:
-  - command: "ignore"
-    match_process_name: "/Taskmgr|ScreenClippingHost/"
-  - command: "set floating"
-    match_class_name: "#32770"
-  - command: "ignore"
-    match_title: "[Pp]icture.in.[Pp]icture"
-    match_class_name: "Chrome_WidgetWin_1|MozillaDialogClass"
-  - command: "ignore"
-    match_process_name: "RiotClientUx"
-  - command: "ignore"
-    match_process_name: "LeagueClient"
-  - command: "ignore"
-    match_process_name: "LeagueClientUx"
-  - command: "ignore"
-    match_process_name: "League of Legends"
-  - command: "ignore"
-    match_process_name: "Content Manager"
-  - command: "ignore"
-    match_process_name: "osu!"
-  - command: "ignore"
-    match_process_name: "TabletDriverGUI"
-  - command: "ignore"
-    match_process_name: "SoundSpacePlus"
-  - command: "ignore"
-    match_process_name: "Telegram"
-  - command: "ignore"
-    match_process_name: "Lunar Client"
-  - command: "ignore"
-    match_process_name: "Javaw"
-  - command: "ignore"
-    match_process_name: "javaw"
-  - command: "ignore"
-    match_process_name: "Modrinth App"
-  - command: "set floating"
-    match_process_name: "alacritty"
-  - command: "ignore"
-    match_process_name: "Lightshot"
-  - command: "set floating"
-    match_process_name: "mpv"
-  - command: "set floating"
-    match_process_name: "Overwolf"
-  - command: "set floating"
-    match_process_name: "OverwolfBrowser"
-  - command: "set floating"
-    match_process_name: "OverwolfHelper"
-  - command: "set floating"
-    match_process_name: "OverwolfHelper64"
-  - command: "set floating"
-    match_process_name: "Porofessor.gg"
-  - command: "set floating"
-    match_process_name: "WindowsTerminal"
-
-
-
-  # Move app to workspace
-  - command: "move to workspace 1"
-    match_process_name: "brave"
-  - command: "move to workspace 1"
-    match_process_name: "firefox"
-  - command: "move to workspace 1"
-    match_process_name: "Arc"
-  - command: "move to workspace 3"
-    match_process_name: "Discord"
 
 keybindings:
   - command: "focus left"
@@ -230,6 +166,7 @@ keybindings:
     binding: "Alt+Shift+P"
   - command: "exec 'C:\\Windows\\System32\\Taskmgr.exe'"
     binding: "Alt+P"
+  # start browser (Arc)
   - command: "exec 'C:\\Users\\cyadine\\AppData\\Local\\Microsoft\\WindowsApps\\Arc.exe'"
     binding: "Alt+B"
     
@@ -259,31 +196,71 @@ keybindings:
     binding: "Alt+Shift+5"
   - commands: ["move to workspace 6"]
     binding: "Alt+Shift+6"
-    
-    
-rosewater: &rosewater "#f2d5cf"
-flamingo: &flamingo "f2cdcd"
-pink: &pink "#f4b8e4"
-mauve: &mauve "#ca9ee6"
-red: &red "#e78284"
-maroon: &maroon "#ea999c"
-peach: &peach "#ef9f76"
-yellow: &yellow "#e5c890"
-green: &green "#a6d189"
-teal: &teal "#81c8be"
-sky: &sky "#99d1db"
-sapphire: &sapphire "#85c1dc"
-blue: &blue "#8caaee"
-lavender: &lavender "#babbf1"
-text: &text "#c6d0f5"
-subtext1: &subtext1 "#b5bfe2"
-subtext0: &subtext0 "#a5adce"
-overlay2: &overlay2 "#949cbb"
-overlay1: &overlay1 "#838ba7"
-overlay0: &overlay0 "#737994"
-surface2: &surface2 "#626880"
-surface1: &surface1 "#51576d"
-surface0: &surface0 "#414559"
-base: &base "#303446"
-mantle: &mantle "#292c3c"
-crust: &crust "#232634"
+
+
+window_rules:
+# Move app to workspace
+  - command: "move to workspace 1"
+    match_process_name: "brave"
+  - command: "move to workspace 1"
+    match_process_name: "firefox"
+  - command: "move to workspace 1"
+    match_process_name: "Arc"
+  - command: "move to workspace 2"
+    match_process_name: "Discord"
+
+  - command: "ignore"
+    match_process_name: "/Taskmgr|ScreenClippingHost/"
+  - command: "set floating"
+    match_class_name: "#32770"
+  - command: "ignore"
+    match_title: "[Pp]icture.in.[Pp]icture"
+    match_class_name: "Chrome_WidgetWin_1|MozillaDialogClass"
+  - command: "ignore"
+    match_process_name: "RiotClientUx"
+  - command: "ignore"
+    match_process_name: "LeagueClient"
+  - command: "ignore"
+    match_process_name: "LeagueClientUx"
+  - command: "ignore"
+    match_process_name: "League of Legends"
+  - command: "ignore"
+    match_process_name: "Content Manager"
+  - command: "ignore"
+    match_process_name: "osu!"
+  - command: "ignore"
+    match_process_name: "TabletDriverGUI"
+  - command: "ignore"
+    match_process_name: "SoundSpacePlus"
+  - command: "ignore" 
+    match_title: "Media viewer"
+  - command: "ignore"
+    match_process_name: "Lunar Client"
+  - command: "ignore"
+    match_process_name: "Javaw"
+  - command: "ignore"
+    match_process_name: "javaw"
+  - command: "ignore"
+    match_process_name: "Modrinth App"
+  - command: "set floating"
+    match_process_name: "alacritty"
+  - command: "ignore"
+    match_process_name: "Lightshot"
+  - command: "set floating"
+    match_process_name: "mpv"
+  - command: "set floating"
+    match_process_name: "Overwolf"
+  - command: "set floating"
+    match_process_name: "OverwolfBrowser"
+  - command: "set floating"
+    match_process_name: "OverwolfHelper"
+  - command: "set floating"
+    match_process_name: "OverwolfHelper64"
+  - command: "set floating"
+    match_process_name: "Porofessor.gg"
+  - command: "set floating"
+    match_process_name: "WindowsTerminal"
+  - command: "set floating"
+    match_process_name: "ShareX"
+  - command: "set floating"
+    match_process_name: "Motrix"
