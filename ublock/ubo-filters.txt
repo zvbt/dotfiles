@@ -9,8 +9,6 @@ youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer:has-text("Shorts remixing this video")
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
-youtube.com##yt-button-view-model.ytd-menu-renderer.style-scope:nth-of-type(1)
-youtube.com##yt-button-view-model.ytd-menu-renderer.style-scope:nth-of-type(2)
 youtube.com###sponsor-button
 youtube.com###voice-search-button
 youtube.com###chips-wrapper > .ytd-feed-filter-chip-bar-renderer.style-scope
@@ -77,3 +75,16 @@ animationdigitalnetwork.fr##.crYqSn.iprhiF.sc-3b794bf1-2.sc-3b794bf1-0 > .izqJqd
 animationdigitalnetwork.fr###comments-panel > .izqJqd.sc-5a07385f-0 > .deQkVJ.sc-5a07385f-1
 animationdigitalnetwork.fr##.crYqSn.iprhiF.sc-3b794bf1-2.sc-3b794bf1-0 > div > .izqJqd.sc-5a07385f-0 > .itDEN.sc-5a07385f-1
 animationdigitalnetwork.fr##.jdcJRq.sc-3b794bf1-3
+
+! 2024-03-17 https://wallet.duinocoin.com
+wallet.duinocoin.com##div.is-ancestor.tile:nth-of-type(1) > div.is-parent.tile:nth-of-type(2) > .box.is-child.tile
+
+! 2024-04-10 https://www.youtube.com
+www.youtube.com###reaction-control-panel
+
+! 2024-04-12 https://listen.moe
+||listen.moe/_nuxt/img/donate.04f67b4.gif$image
+||listen.moe/*.gif$image
+||listen.moe/_nuxt/img/blank-dark.cd1c044.png$image
+||listen.moe/images/girls/shigure-ui.gif$image
+
