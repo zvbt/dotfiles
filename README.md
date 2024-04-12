@@ -8,7 +8,7 @@ My font looks weird because I mainly use it for Hangul (the Korean alphabet). It
 ![image](https://github.com/zvbt/dotfiles/assets/61088560/a78df6c9-0628-4251-8ff5-6dd0bb8d6a83)
 
 ## Keypirinha
-<center>wofi replacement.</center>
+<center>wofi alternative for Windows.</center>
 
 ![image](https://github.com/zvbt/dotfiles/assets/61088560/9e2ee9e6-3e06-4730-92c3-28e2cbe3df6b)
 
