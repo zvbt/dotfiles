@@ -44,7 +44,7 @@ bar:
       foreground: *green
   components_center:
     - type: "image"
-      source: "C:\\Users\\cyadine\\.config\\glaze-wm\\assets\\catppuccin.png"
+      source: "C:\\Users\\cyadine\\.glaze-wm\\assets\\catppuccin.png"
   components_right:
     # - type: "music"
     #   label_not_playing: ""
