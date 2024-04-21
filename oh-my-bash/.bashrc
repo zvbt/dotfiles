@@ -4,10 +4,10 @@ case $- in
     *) return;;
 esac
 
-# Path to your oh-my-bash installation.
 export OSH='/c/Users/cyadine/.oh-my-bash'
+OSH_THEME="rana"
+alias mpv='mpv.com'
 PATH=$PATH:/c/tools/
-OSH_THEME="zvbt"
 OMB_USE_SUDO=true
 completions=(
   git
