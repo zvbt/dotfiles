@@ -1,0 +1,124 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+f"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "launchMode": "focus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "closeOnExit": "always",
+            "colorScheme": "Gruvbox Dark",
+            "cursorHeight": 25,
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Maple Mono NF",
+                "size": 11.0
+            },
+            "opacity": 90,
+            "padding": "0",
+            "scrollbarState": "hidden",
+            "useAtlasEngine": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "commandline": "C:/Program Files/Git/bin/sh.exe -i -l",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#282828",
+            "black": "#282828",
+            "blue": "#458588",
+            "brightBlack": "#928374",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#FB4934",
+            "brightWhite": "#EBDBB2",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#689D6A",
+            "foreground": "#EBDBB2",
+            "green": "#98971A",
+            "name": "Gruvbox Dark",
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#A89984",
+            "yellow": "#D79921"
+        },
+        {
+            "background": "#1C2128",
+            "black": "#161B22",
+            "blue": "#77BDFB",
+            "brightBlack": "#21262D",
+            "brightBlue": "#77BDFB",
+            "brightCyan": "#A2D2FB",
+            "brightGreen": "#7CE38B",
+            "brightPurple": "#CEA5FB",
+            "brightRed": "#FA7970",
+            "brightWhite": "#ECF2F8",
+            "brightYellow": "#FFA356",
+            "cursorColor": "#7CE38B",
+            "cyan": "#A2D2FB",
+            "foreground": "#ECF2F8",
+            "green": "#7CE38B",
+            "name": "Holby",
+            "purple": "#CEA5FB",
+            "red": "#FA7970",
+            "selectionBackground": "#89929B",
+            "white": "#ECF2F8",
+            "yellow": "#FFA356"
+        }
+    ],
+    "themes": []
+}
