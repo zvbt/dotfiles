@@ -5,12 +5,14 @@ My font looks weird because I mainly use it for Hangul (the Korean alphabet). It
 
 
 ## Alacritty
-![image](https://github.com/zvbt/dotfiles/assets/61088560/a78df6c9-0628-4251-8ff5-6dd0bb8d6a83)
+![image](https://github.com/zvbt/dotfiles/assets/61088560/5d2745d2-fedd-4585-9eee-6a4af5e2fd2d)
+
 
 ## Keypirinha
 <center>wofi alternative for Windows.</center>
 
-![image](https://github.com/zvbt/dotfiles/assets/61088560/9e2ee9e6-3e06-4730-92c3-28e2cbe3df6b)
+![image](https://github.com/zvbt/dotfiles/assets/61088560/963eb30e-1725-482e-a38d-4eafdaa62319)
+
 
 ## GlazeWM
 GlazeWM is window manager for Windows 10/11
@@ -20,7 +22,8 @@ GlazeWM is window manager for Windows 10/11
 ![image](https://github.com/zvbt/dotfiles/assets/61088560/29070ec2-ec20-4746-aa2d-f1b29dcd3069)
 
 ## Oh My Bash
-![image](https://github.com/zvbt/dotfiles/assets/61088560/b9cdade6-b785-4420-8ded-a32701999742)
+![image](https://github.com/zvbt/dotfiles/assets/61088560/aabcd038-8f1b-4e89-9fe2-693171df78c1)
+
 
 ## Ublock
 Config for my region and personal filters
