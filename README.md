@@ -1,9 +1,6 @@
 # Dotfiles
 This repository contains my personal configuration files (dotfiles) for various applications and utilities that I use on my system. These configurations are tailored to my preferences and workflow. Feel free to explore, adapt, or fork them for your own use.
 
-My font looks weird because I mainly use it for Hangul (the Korean alphabet). It's better for me to read.
-
-
 ## Alacritty
 ![image](https://github.com/zvbt/dotfiles/assets/61088560/5d2745d2-fedd-4585-9eee-6a4af5e2fd2d)
 
