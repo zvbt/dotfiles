@@ -40,7 +40,7 @@
             "cursorShape": "filledBox",
             "font": 
             {
-                "face": "Maple Mono NF CN",
+                "face": "Maple Mono NF",
                 "size": 11.0
             },
             "opacity": 90,
@@ -70,10 +70,16 @@
                 "source": "Git"
             },
             {
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "guid": "{8705f07b-58f4-5a08-aacc-e485170581d7}",
                 "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{1683a4cc-f671-5656-8108-f49ba7dc11c9}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
