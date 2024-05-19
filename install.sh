@@ -33,7 +33,9 @@ if alacritty --version list 2>/dev/null | grep -q alacritty; then
 else
     echo "Alacritty is not installed." | tee -a $log_file
     echo "Installing Alacritty..." | tee -a $log_file
-    winget install Alacritty.Alacritty
+    scoop bucket add extras
+    scoop install extras/alacritty
+    #winget install Alacritty.Alacritty
     echo "Successfully installed Alacritty." | tee -a $log_file
     echo "Moving the config to $APPDATA/alacritty" | tee -a $log_file
     cp -r "./alacritty" $APPDATA
@@ -49,6 +51,7 @@ if mpv.com --version 2>/dev/null | grep -q mpv; then
 else
     echo "mpv is not installed." | tee -a $log_file
     echo "Installing mpv..." | tee -a $log_file
+    scoop install extras/mpv
     echo "Successfully installed mpv." | tee -a $log_file
     echo "Moving the config to $USERPROFILE/scoop/apps/mpv/current/portable_config/" | tee -a $log_file
     cp -r "./mpv"/* $USERPROFILE/scoop/apps/mpv/current/portable_config/
