@@ -4,10 +4,16 @@ case $- in
     *) return;;
 esac
 
+
+fastfetch
+
 export OSH='/c/Users/cyadine/.oh-my-bash'
 OSH_THEME="rana"
 alias mpv='mpv.com'
 PATH=$PATH:/c/tools/
+PATH=$PATH:/c/tools/C/
+PATH=$PATH:/c/Users/cyadine/.local/bin/
+
 OMB_USE_SUDO=true
 completions=(
   git
@@ -25,11 +31,10 @@ plugins=(
 )
 
 source "$OSH"/oh-my-bash.sh
-source ".env"
-export ezapi
 
-function ez-paste() {
-    local apikey=$ezapi
+# Custom pastebin/image host
+ez-paste() {
+    local apikey="apikey"
     local file="$1"
     
     if [ ! -f "$file" ]; then
@@ -56,8 +61,8 @@ function ez-paste() {
     fi
 }
 
-function ez-media() {
-    local apikey=$ezapi
+ez-media() {
+    local apikey="apikey"
     local file="$1"
     
     if [ ! -f "$file" ]; then
@@ -88,5 +93,16 @@ function ez-media() {
     fi
 }
 
+# Automatically do an ls after each cd, z, or zoxide
+cd ()
+{
+	if [ -n "$1" ]; then
+		builtin cd "$@" && ls
+	else
+		builtin cd ~ && ls
+	fi
+}
 
-fastfetch
+eval "$(zoxide init bash)"
+eval "$(fzf --bash)"
+eval "$(starship init bash)"
