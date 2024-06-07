@@ -14,7 +14,6 @@ youtube.com###voice-search-button
 youtube.com###chips-wrapper > .ytd-feed-filter-chip-bar-renderer.style-scope
 youtube.com###header > .ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
-youtube.com###show-hide-button > .ytd-live-chat-frame.style-scope
 
 plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn > .SourceSidebarLink-iconContainer-xQGX4C
 plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn
@@ -88,3 +87,18 @@ www.youtube.com###reaction-control-panel
 ||listen.moe/_nuxt/img/blank-dark.cd1c044.png$image
 ||listen.moe/images/girls/shigure-ui.gif$image
 
+! 2024-05-13 https://www.youtube.com
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+
+! 2024-05-13 https://www.tiktok.com
+www.tiktok.com##.e1b4u1n1.css-1qs75bj-DivScrollContainer-StyledScroll.e14l9ebt0
+www.tiktok.com##.ege8lhx5.css-1czmy9n-DivVideoList
+www.tiktok.com##.e8agtid0.css-r0hg2a-DivSideNavContainer
+
+! Jun 6, 2024 https://www.instagram.com
+www.instagram.com##.x1puwpt7.x10l6tqk.x1swvt13.x1l90r2v.x1pi30zi.xyamay9.xpgaw4o.xww2gxu.x18nykt9.xudhj91.x14yjl9h.xcpsgoo
+
+! Jun 7, 2024 https://www.viki.com
+@@||colvk.viki.io^$domain=www.viki.com
+@@||litix.io^$domain=www.viki.com
