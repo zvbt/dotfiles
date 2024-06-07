@@ -100,5 +100,7 @@ www.tiktok.com##.e8agtid0.css-r0hg2a-DivSideNavContainer
 www.instagram.com##.x1puwpt7.x10l6tqk.x1swvt13.x1l90r2v.x1pi30zi.xyamay9.xpgaw4o.xww2gxu.x18nykt9.xudhj91.x14yjl9h.xcpsgoo
 
 ! Jun 7, 2024 https://www.viki.com
+@@||viki.io^$domain=www.viki.com
 @@||colvk.viki.io^$domain=www.viki.com
 @@||litix.io^$domain=www.viki.com
+
