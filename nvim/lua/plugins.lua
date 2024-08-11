@@ -7,6 +7,7 @@ return {
 				opts = { color = "#63bda4" },
 				config = true,
 				lazy = false,
+				enabled = true,
 			},
 			{
 				"iamcco/markdown-preview.nvim",
@@ -35,6 +36,7 @@ return {
 			{
 				"ThePrimeagen/vim-be-good",
 				cmd = "VimBeGood",
+				enabled = false,
 			},
 		},
 	},
