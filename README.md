@@ -6,7 +6,7 @@ This repository contains my personal configuration files (dotfiles) for various 
 
 
 ## Keypirinha
-<center>wofi alternative for Windows.</center>
+Wofi alternative for Windows.
 
 ![image](https://github.com/zvbt/dotfiles/assets/61088560/963eb30e-1725-482e-a38d-4eafdaa62319)
 
@@ -26,7 +26,9 @@ GlazeWM is window manager for Windows 10/11
 Config for my region and personal filters
 
 ## Wezterm
-A highly customizable terminal emulator, but I no longer use it.
+A highly customizable terminal emulator
+![{13E61BC9-E033-4D18-938B-D8E0912B4729}](https://github.com/user-attachments/assets/9cab8823-9bd9-4938-a4af-2c085533794c)
+
 
 ## Komorebi
 A window manager for Windows.
