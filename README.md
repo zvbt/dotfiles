@@ -1,13 +1,14 @@
 # Dotfiles
 This repository contains my personal configuration files (dotfiles) for various applications and utilities that I use on my system. These configurations are tailored to my preferences and workflow. Feel free to explore, adapt, or fork them for your own use.
 
-## Alacritty
-![image](https://github.com/zvbt/dotfiles/assets/61088560/5d2745d2-fedd-4585-9eee-6a4af5e2fd2d)
+
+## Wezterm
+A highly customizable terminal emulator
+![{21A1697B-7D2E-472F-A692-1643F634E658}](https://github.com/user-attachments/assets/f041c9f4-7f35-42a6-96fb-19a32f3fca91)
 
 
 ## Keypirinha
 Wofi alternative for Windows.
-
 ![image](https://github.com/zvbt/dotfiles/assets/61088560/963eb30e-1725-482e-a38d-4eafdaa62319)
 
 
@@ -24,10 +25,6 @@ GlazeWM is window manager for Windows 10/11
 
 ## Ublock
 Config for my region and personal filters
-
-## Wezterm
-A highly customizable terminal emulator
-![{13E61BC9-E033-4D18-938B-D8E0912B4729}](https://github.com/user-attachments/assets/9cab8823-9bd9-4938-a4af-2c085533794c)
 
 
 ## Komorebi
