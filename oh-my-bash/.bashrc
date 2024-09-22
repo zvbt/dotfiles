@@ -4,16 +4,6 @@ case $- in
     *) return;;
 esac
 
-
-fastfetch
-
-export OSH='/c/Users/cyadine/.oh-my-bash'
-OSH_THEME="rana"
-alias mpv='mpv.com'
-PATH=$PATH:/c/tools/
-PATH=$PATH:/c/tools/C/
-PATH=$PATH:/c/Users/cyadine/.local/bin/
-
 OMB_USE_SUDO=true
 completions=(
   git
@@ -29,8 +19,6 @@ plugins=(
   git
   bashmarks
 )
-
-source "$OSH"/oh-my-bash.sh
 
 # Custom pastebin/image host
 ez-paste() {
@@ -93,15 +81,15 @@ ez-media() {
     fi
 }
 
-# Automatically do an ls after each cd, z, or zoxide
-cd ()
-{
-	if [ -n "$1" ]; then
-		builtin cd "$@" && ls
-	else
-		builtin cd ~ && ls
-	fi
-}
+#custom path
+PATH=$PATH:/c/tools/
+PATH=$PATH:/c/tools/C/
+PATH=$PATH:/c/Users/cyadine/.local/bin/
+
+#custom alias
+alias ff='fastfetch'
+alias c='clear'
+alias mpv='mpv.com'
 
 eval "$(zoxide init bash)"
 eval "$(fzf --bash)"
