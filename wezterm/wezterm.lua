@@ -79,14 +79,14 @@ return {
       key = "!", -- ctrl+shift+1
       mods = "CTRL|SHIFT",
       action = wezterm.action.SpawnCommandInNewTab {
-        args = { "ssh", "root@192.168.1.32" },
+        args = { "ssh", "root@***" },
       },
     },
     {
       key = "@", -- ctrl+shift+2
       mods = "CTRL|SHIFT",
       action = wezterm.action.SpawnCommandInNewTab {
-        args = { "ssh", "root@94.156.35.151" },
+        args = { "ssh", "root@***" },
       },
     },
     {
