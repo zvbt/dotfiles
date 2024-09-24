@@ -74,19 +74,33 @@ return {
       action = wezterm.action.CloseCurrentTab({ confirm = false }),
     },
 
+    -- Switch to the previous tab (Ctrl + Shift + Left Arrow)
+    {
+      key = "k",
+      mods = "CTRL",
+      action = wezterm.action.ActivateTabRelative(-1),
+    },
+
+    -- Switch to the next tab (Ctrl + Shift + Right Arrow)
+    {
+      key = "l",
+      mods = "CTRL",
+      action = wezterm.action.ActivateTabRelative(1),
+    },
+
     -- ssh config
     {
       key = "!", -- ctrl+shift+1
       mods = "CTRL|SHIFT",
       action = wezterm.action.SpawnCommandInNewTab {
-        args = { "ssh", "root@***" },
+        args = { "ssh", "root@192.168.1.32" },
       },
     },
     {
       key = "@", -- ctrl+shift+2
       mods = "CTRL|SHIFT",
       action = wezterm.action.SpawnCommandInNewTab {
-        args = { "ssh", "root@***" },
+        args = { "ssh", "root@94.156.35.151" },
       },
     },
     {
