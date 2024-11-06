@@ -7,33 +7,6 @@ youtube.com##ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(Short
 youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
 youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer:has-text("Shorts remixing this video")
-youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
-youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
-youtube.com###sponsor-button
-youtube.com###voice-search-button
-youtube.com###chips-wrapper > .ytd-feed-filter-chip-bar-renderer.style-scope
-youtube.com###header > .ytd-rich-grid-renderer.style-scope
-youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
-
-plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn > .SourceSidebarLink-iconContainer-xQGX4C
-plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2) > .SourceSidebarLink-sourceLink-hLtTJn
-plex.zvbt.space##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(3) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
-plex.zvbt.space##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(3) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
-plex.zvbt.space##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(4) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
-plex.zvbt.space##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(4) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(5) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(5) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(6) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(6) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo > .SourceSidebarLink-iconContainer-xQGX4C
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7) > .SourceSidebarLink-sourceLink-hLtTJn.Link-link-SxPFpG.Link-default-BXtKLo
-plex.zvbt.space##div.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-medium-Y3siEA:nth-of-type(2)
-plex.zvbt.space##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(3)
-plex.zvbt.space##.AllSourcesSidebarContent-container-Wz3vfX > div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(4)
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(5)
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(6)
-plex.zvbt.space##div.SourceSidebarItem-button-Zng372.SourceSidebarLink-button-rWG8gD.SidebarLink-sidebarLink-ns5vmb.Link-default-BXtKLo.SourceSidebarLink-small-lIEoIa:nth-of-type(7)
-plex.zvbt.space##._76v8d61._1duebfh16._1duebfh32._1duebfh3m._1duebfhm._76v8d67.tvbry60._1duebfhf6._76v8d62._1duebfh2m._1duebfh2i
 
 deeplol.gg##.add_to_Tapin
 
@@ -47,8 +20,6 @@ v5.voiranime.com##.with-border.c-sub-header-nav
 v5.voiranime.com##.col-sm-4.col-md-4.sidebar-col
 voirdrama.org###main-sidebar > .row
 voirdrama.org##.col-lg-8.col-md-8.col-sm-8.col-12.main-col
-
-app.skiff.com##.gjdFDt.sc-ezbkAF
 
 mydramalist.com##.carousel-articles.light.box
 
@@ -66,41 +37,28 @@ tracker.gg##a.trn-game-bar-title:nth-of-type(8)
 tracker.gg##.trn-game-bar-more-games__label
 tracker.gg##.trn-game-bar
 
-twitch.tv##.kBtJDm.InjectLayout-sc-1i43xsx-0 > .cegTsp.bTXTVH.ScCoreButtonSecondary-sc-ocjdkq-2.ScCoreButton-sc-ocjdkq-0
-twitch.tv##.prime-offers.cwtKyw.Layout-sc-1xcs6mc-0 > .hatIYF.Layout-sc-1xcs6mc-0 .kBtJDm.InjectLayout-sc-1i43xsx-0 .eSFFfM.ScButtonIcon-sc-9yap0r-0.bTXTVH.ScCoreButton-sc-ocjdkq-0
-twitch.tv##.kBEymU.Layout-sc-1xcs6mc-0 > .hatIYF.Layout-sc-1xcs6mc-0 > div > .kBtJDm.InjectLayout-sc-1i43xsx-0 > .eSFFfM.ScButtonIcon-sc-9yap0r-0.bTXTVH.ScCoreButton-sc-ocjdkq-0
-
 animationdigitalnetwork.fr##.crYqSn.iprhiF.sc-3b794bf1-2.sc-3b794bf1-0 > .izqJqd.sc-5a07385f-0
 animationdigitalnetwork.fr###comments-panel > .izqJqd.sc-5a07385f-0 > .deQkVJ.sc-5a07385f-1
 animationdigitalnetwork.fr##.crYqSn.iprhiF.sc-3b794bf1-2.sc-3b794bf1-0 > div > .izqJqd.sc-5a07385f-0 > .itDEN.sc-5a07385f-1
 animationdigitalnetwork.fr##.jdcJRq.sc-3b794bf1-3
 
-! 2024-03-17 https://wallet.duinocoin.com
 wallet.duinocoin.com##div.is-ancestor.tile:nth-of-type(1) > div.is-parent.tile:nth-of-type(2) > .box.is-child.tile
 
-! 2024-04-10 https://www.youtube.com
 www.youtube.com###reaction-control-panel
 
-! 2024-04-12 https://listen.moe
 ||listen.moe/_nuxt/img/donate.04f67b4.gif$image
 ||listen.moe/*.gif$image
 ||listen.moe/_nuxt/img/blank-dark.cd1c044.png$image
 ||listen.moe/images/girls/shigure-ui.gif$image
 
-! 2024-05-13 https://www.youtube.com
-www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-
-! 2024-05-13 https://www.tiktok.com
 www.tiktok.com##.e1b4u1n1.css-1qs75bj-DivScrollContainer-StyledScroll.e14l9ebt0
 www.tiktok.com##.ege8lhx5.css-1czmy9n-DivVideoList
 www.tiktok.com##.e8agtid0.css-r0hg2a-DivSideNavContainer
 
-! Jun 6, 2024 https://www.instagram.com
 www.instagram.com##.x1puwpt7.x10l6tqk.x1swvt13.x1l90r2v.x1pi30zi.xyamay9.xpgaw4o.xww2gxu.x18nykt9.xudhj91.x14yjl9h.xcpsgoo
 
-! Jun 7, 2024 https://www.viki.com
 @@||viki.io^$domain=www.viki.com
 @@||colvk.viki.io^$domain=www.viki.com
 @@||litix.io^$domain=www.viki.com
 
+open.spotify.com##.encore-over-media-set.gDlqhe.ButtonInner-sc-14ud5tc-0
